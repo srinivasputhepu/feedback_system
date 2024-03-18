@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+}
+
+header {
+    
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+    color: #333; /* Dark text color */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333; /* Dark text color */
+}
+
+nav a:hover {
+    color: white;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.hero h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #294E95;
+}
+
+.hero button {
+    background-color: #294E95;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.benefits {
+    padding: 50px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+
+.benefits ul {
+    list-style: disc;
+    padding: 0px 0px 0px 30px;
+    color: #333; /* Dark text color */
+}
+
+footer {
+    background-color: #f0f0f0; /* Light gray background */
+    text-align: center;
+    padding: 10px;
+    color: #294e95;
+}
+
+.leavefeedback a {
+    color: white;
+    text-decoration: none;
+}
+
+.why {
+    text-align: center;
+    color: #294E95;
+}
+
+.feedbackimg {
+    float: right;
+    padding: 10px 70px 0px 0px;
+}
+
+.feedbackimg img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+}
+
+header {
+    background-color: #c4cceb;
+}
+
+.middle {
+    background-color: #c4cceb;
+}
+
+.benefits ul li {
+    font-size: large;
+}
+
+.company {
+    text-align: center;
+}
+
+.company img {
+    height: 200px;
+    width: 600px;
+}
+
+.search {
+    width: 340px;
+    height: 20px;
+    position: relative;
+    left: 80px;
+    background-color: #F5F5F5;
+    border-radius: 7px;
+    border: none;
+    padding: 10px;
+    color: black;
+    font-family: helvetica;
+}
+
+button img {
+    width: 15px;
+    height: 15px;
+}
+
+.search {
+    width: 350px;
+    background-color: #F5F5F5;
+    border: 1px solid lightgrey;
+}
+
+input {
+    width: 300px;
+    border: none;
+    background-color: transparent;
+    color: black;
+    outline: none;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
